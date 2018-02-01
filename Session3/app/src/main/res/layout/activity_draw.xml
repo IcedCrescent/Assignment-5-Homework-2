@@ -34,21 +34,18 @@
                 android:id="@+id/rb_thin"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:buttonTint="@color/colorAccent"
                 android:text="Thin"/>
 
             <android.support.v7.widget.AppCompatRadioButton
                 android:id="@+id/rb_medium"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:buttonTint="@color/colorAccent"
                 android:text="Medium"/>
 
             <android.support.v7.widget.AppCompatRadioButton
                 android:id="@+id/rb_strong"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:buttonTint="@color/colorAccent"
                 android:text="Strong"/>
         </RadioGroup>
     </RelativeLayout>
