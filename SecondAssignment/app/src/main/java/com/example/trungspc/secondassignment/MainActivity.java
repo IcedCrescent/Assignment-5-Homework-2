@@ -50,6 +50,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
 //        }
 //        linearLayout.addView(myImage);
 //        fbMenu.close(false);
+        Log.d(TAG, "onClick: ");
         LinearLayout.LayoutParams params = new LinearLayout.LayoutParams(LinearLayout.LayoutParams.MATCH_PARENT, LinearLayout.LayoutParams.WRAP_CONTENT);
         image.setImageResource(R.drawable.food_1);
         image.setLayoutParams(params);
