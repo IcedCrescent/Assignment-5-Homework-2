@@ -118,15 +118,23 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         checkStorage();
         final GridImageAdapter gridImageAdapter = new GridImageAdapter(this);
         gvImages.setAdapter(gridImageAdapter);
+        File directory = new File("/sdcard/Draw Image");
+        final File[] contents = directory.listFiles();
         gvImages.setOnItemLongClickListener(new AdapterView.OnItemLongClickListener() {
             @Override
-            public boolean onItemLongClick(AdapterView<?> parent, View view, int position, long id) {
+            public boolean onItemLongClick(AdapterView<?> parent, View view, final int position, long id) {
                 final AlertDialog.Builder builder = new AlertDialog.Builder(MainActivity.this);
                 final AlertDialog alert = builder.create();
                 builder.setTitle("Delete image?")
                         .setPositiveButton("Yes", new DialogInterface.OnClickListener() {
                             @Override
                             public void onClick(DialogInterface dialog, int which) {
+                                if (contents[position].delete())
+                                    Log.d(TAG, "File deleted");
+                                else
+                                    Log.d(TAG, "File not deleted");
+                                onStart();
+                                checkStorage();
                                 alert.dismiss();
                             }
                         })
