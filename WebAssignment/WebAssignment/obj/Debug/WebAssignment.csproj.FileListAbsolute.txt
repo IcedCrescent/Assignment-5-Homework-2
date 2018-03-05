@@ -1,6 +1,0 @@
-c:\users\admin\documents\visual studio 2015\Projects\WebAssignment\WebAssignment\bin\WebAssignment.dll.config
-c:\users\admin\documents\visual studio 2015\Projects\WebAssignment\WebAssignment\bin\WebAssignment.dll
-c:\users\admin\documents\visual studio 2015\Projects\WebAssignment\WebAssignment\bin\WebAssignment.pdb
-c:\users\admin\documents\visual studio 2015\Projects\WebAssignment\WebAssignment\obj\Debug\WebAssignment.csprojResolveAssemblyReference.cache
-c:\users\admin\documents\visual studio 2015\Projects\WebAssignment\WebAssignment\obj\Debug\WebAssignment.dll
-c:\users\admin\documents\visual studio 2015\Projects\WebAssignment\WebAssignment\obj\Debug\WebAssignment.pdb
